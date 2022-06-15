@@ -15,7 +15,7 @@
   ******************************************************************************
   */
 
-/*#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "freertos/FreeRTOS.h"
@@ -50,4 +50,4 @@ uint8_t _get_gpio_level ( uint8_t DHT_pin )
 void _set_delay_us ( uint32_t uSeconds )
 {
     ets_delay_us ( ( uint32_t )uSeconds );
-}*/
+}
